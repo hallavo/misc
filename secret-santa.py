@@ -31,11 +31,11 @@ def getGiftRecipients(names: tuple) -> dict:
 
 def main():
     people = (
-                Person('Ixxxx',  'xxxx@gmail.com'),
-                Person('Mxxxx',  'xxxx@gmail.com'),
-                Person('Vxxxx',  'xxxx@gmail.com'),
-                Person('Axxxx',  'xxxx@gmail.com'),
-                Person('Lxxxx',  'xxxx@gmail.com')
+                Person('Ixxxx',  'ixxx@gmail.com'),
+                Person('Mxxxx',  'mxxx@gmail.com'),
+                Person('Vxxxx',  'vxxx@gmail.com'),
+                Person('Axxxx',  'axxx@gmail.com'),
+                Person('Lxxxx',  'lxxx@gmail.com')
              )
     recipients = getGiftRecipients(people)
     pprint.pprint(recipients)
